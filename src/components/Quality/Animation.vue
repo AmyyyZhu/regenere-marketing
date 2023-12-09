@@ -3,7 +3,7 @@
     <div class="-z-10 relative max-w-[1060px]">
       <img src="../../assets/Quality/StaticImg.png"/>
     </div>
-    <div class="absolute justify-center flex z-100 bottle-position">
+    <div class="absolute justify-center flex z-10 bottle-position">
       <img src="../../assets/Quality/Bottle.png"/>
     </div>
   </div>

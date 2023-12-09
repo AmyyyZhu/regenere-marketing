@@ -32,6 +32,5 @@ const currentView = computed(() => {
 <div>
   <Header />
   <component :is="currentView" />
-  <Quality />
 </div>
 </template>
