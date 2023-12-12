@@ -16,7 +16,7 @@
       class="md:w-[82%] w-full flex flex-col overflow-scroll"
       id="snap8wholeBox"
     >
-      <Title :title="title" class="mb-6" @backTo="backTo"/>
+      <Title :title="title" class="mb-6" @backTo="backTo" />
       <div class="md:px-[44px] px-[27px] w-full flex justify-center">
         <div class="flex flex-col w-full">
           <!-- Point 1 -->
@@ -30,20 +30,20 @@
                 <p
                   class="font-['DM Sans'] md:text-[24px] text-[14px] md:tracking-[0.48px] tracking-[0.28px]"
                 >
-                  SNAP-8™
+                  Argireline®
                 </p>
               </div>
               <div class="flex mr-[26px] shrink-0">
-                <img src="../../assets/Quality/Ingrediant/Decrease.svg" />
+                <img src="../../assets/Quality/Ingrediant/Increase.svg" />
               </div>
               <div class="flex flex-col">
                 <div class="text-[14px] font-normal">
-                  Premium topical alternative to botulinum toxin
+                  The first peptide for expression wrinkles
                 </div>
                 <p class="text-[12px] text-[#7d7d7d]">
-                  <span class="text-[#d4b115]">SNAP-8™ </span>
-                  targets persistent expression wrinkles Up to 72% reduction in
-                  maximum depth of wrinkle
+                  <span class="text-[#d4b115]">Argireline® </span>
+                  is a safer topical alternative to Botulinum Toxin, it
+                  effective in only 15 days, pharmaceutical quality.
                 </p>
               </div>
             </div>
@@ -51,9 +51,11 @@
 
           <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mt-3 md:mb-4"></div>
           <div class="text-[#d4b115] md:text-[18px] text-[12px] md:mb-7 mb-4">
-            An octapeptide that is an elongation of Argireline® peptide,
-            therefore it reduces expression wrinkles topically with an
-            alternative mechanism to botulinum toxin.
+            The first hexapeptide that is a mimic of the N-terminal end of
+            SNAP-25 which competes with this protein for a position in the SNARE
+            complex. argireline® is an alternative to Botulinum Toxin, topically
+            targeting the same wrinkle-formation mechanism in a very different
+            way.
           </div>
           <div
             class="uppercase font-normal text-[#a4a4a4] md:text-[20px] text-[14px] md:mb-3 mb-2"
@@ -61,7 +63,7 @@
             INCI
           </div>
           <div class="md:text-[18px] text-[12px] md:mb-[100px] mb-12">
-            Water (Aqua), Acetyl Octapeptide-3, Caprylyl Glycol.
+            Water (Aqua), Acetyl Hexapeptide-8.
           </div>
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
@@ -71,7 +73,7 @@
               class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-start"
             >
               <div
-                class="min-w-[204px] md:h-full flex items-start md:border-[#a4a4a4] md:mr-[20px]"
+                class="w-1/2 md:h-full flex border-r items-start md:border-[#a4a4a4] md:mr-[10px]"
               >
                 <p
                   class="font-['DM Sans'] md:text-[24px] text-[14px] md:tracking-[0.48px] tracking-[0.28px]"
@@ -79,10 +81,7 @@
                   In Vitro Efficacy
                 </p>
               </div>
-              <div class="flex mr-[26px] md:text-[40px] text-[30px] shrink-0">
-                -38%
-              </div>
-              <div class="flex flex-col">
+              <div class="flex w-1/2 flex-col">
                 <div class="text-[14px] mb-2 font-normal">
                   Wrinkle depth was up to 38% lower
                 </div>
@@ -94,45 +93,16 @@
               </div>
             </div>
           </div>
-          <div class="flex justify-between mb-12" v-if="width > 768">
-            <div class="flex w-[158px] flex-col self-end">
-              <div class="font-['DM Sans'] text-[14px] text-[#e3c84c] mb-2">
-                Release of the Neurotransmitter Glutamate
-              </div>
-              <div class="font-['DM Sans'] text-[14px]">Up to 43% decrease</div>
-            </div>
-            <div class="shrink-0">
-              <img src="../../assets/Quality/Ingrediant/Snap8/Pic1.svg" />
-            </div>
-            <div class="flex w-[158px] flex-col">
-              <div class="font-['DM Sans'] text-[14px] text-[#e3c84c] mb-2">
-                Inhibition of snare complex formation
-              </div>
-              <div class="font-['DM Sans'] text-[14px]">65% reduction</div>
-            </div>
-          </div>
-          <div v-else class="flex flex-col mb-12 w-full items-center">
-            <div class="flex w-full justify-end mb-3">
-              <div class="flex w-[158px] flex-col">
-                <div class="font-['DM Sans'] text-[14px] text-[#e3c84c] mb-2">
-                  Inhibition of snare complex formation
-                </div>
-                <div class="font-['DM Sans'] text-[14px]">65% reduction</div>
-              </div>
-            </div>
-            <div class="shrink-0 justify-self-center mb-3">
-              <img src="../../assets/Quality/Ingrediant/Snap8/Pic1.svg" />
-            </div>
-            <div class="flex w-full">
-              <div class="flex w-[158px] flex-col">
-                <div class="font-['DM Sans'] text-[14px] text-[#e3c84c] mb-2">
-                  Release of the Neurotransmitter Glutamate
-                </div>
-                <div class="font-['DM Sans'] text-[14px]">
-                  Up to 43% decrease
-                </div>
-              </div>
-            </div>
+
+          <div class="font-medium md:text-[16px] text-[12px]">MUSCLE CONTRACTION</div>
+          <div class="">
+            The neurotransmitter involved in muscle
+            contraction is acetylcholine and it is released from a vesicle into
+            the synapse. The SNARE protein complex is formed by three proteins:
+            VAMP, Syntaxin and SNAP-25 and it is essential for neurotransmitter
+            release at the synapsis and mediates the final steps of exocytosis.
+            This complex is like a cellular hook that captures vesicles and
+            brings them close to the membrane to enable their fusion.
           </div>
 
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
@@ -225,7 +195,9 @@
               </p>
             </div>
           </div>
-          <div class="md:pl-[38.6px] flex justify-center md:pr-[40px] md:mb-[60px] mb-[48px]">
+          <div
+            class="md:pl-[38.6px] flex justify-center md:pr-[40px] md:mb-[60px] mb-[48px]"
+          >
             <img
               src="../../assets/Quality/Ingrediant/Snap8/Pic3.svg"
               class=""
@@ -274,7 +246,7 @@ export default {
     return {
       navi: [
         {
-          title: "SNAP-8™",
+          title: "Argireline",
           item: ["Description", "INCI"],
         },
         {
@@ -293,7 +265,7 @@ export default {
         "In Vivo Efficacy": "snap8point3",
         Testing: "snap8point4",
       },
-      title: "SNAP-8™",
+      title: "Argireline®",
     };
   },
   components: {
@@ -315,9 +287,9 @@ export default {
       let scorllH = inele.offsetTop - outele.offsetTop;
       outele.scrollTo({ top: scorllH, behavior: "smooth" });
     },
-    backTo(){
-      this.$emit('backTo');
-    }
+    backTo() {
+      this.$emit("backTo");
+    },
   },
 };
 </script>
