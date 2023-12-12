@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import Header from "./components/Header.vue"
 import Quality from './views/Quality.vue'
 import Home from './views/Home.vue'
+import Footer from './components/Footer.vue'
 
 const routes = {
   '/': Home,
@@ -30,7 +31,8 @@ const currentView = computed(() => {
 
 <template>
 <div>
-  <Header />
+  <Header :selected="selectedTab" />
   <component :is="currentView" />
+  <Footer />
 </div>
 </template>
