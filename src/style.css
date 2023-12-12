@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.font-cormorant {
+  font-family: 'Cormorant';
+}
+
+.font-inter {
+  font-family: 'Inter';
+}
+
+.font-dm-sans {
+  font-family: 'DM Sans';
+}
+
+.font-roboto {
+  font-family: 'Roboto';
+}
