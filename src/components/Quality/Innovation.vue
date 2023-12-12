@@ -8,21 +8,28 @@
       >
         Ingredient Innovation
       </div>
-      <div class="max-w-[888px] mt-7 text-center font-['Roboto] md:tracking-[0.36px] tracking-[0.24px] md:text-[18px] text-[12px]">
+      <div
+        class="max-w-[888px] mt-7 text-center font-['Roboto] md:tracking-[0.36px] tracking-[0.24px] md:text-[18px] text-[12px]"
+      >
         A fully integrated skincare solution with more than 25 active
         ingredients, including peptides, antioxidants, phospholipids,
         humectants, and vitamins. The first fully customized peptide-based serum
         on the market.
       </div>
     </div>
-    <Ingredient />
+    <Ingredient @readMore="readMore"/>
   </div>
 </template>
 <script>
-import Ingredient from './Ingredient.vue';
+import Ingredient from "./Ingredient.vue";
 export default {
-    components:{
-        Ingredient
-    }
-}
+  components: {
+    Ingredient,
+  },
+  methods: {
+    readMore(mapKey) {
+      this.$emit('readMore',mapKey)
+    },
+  },
+};
 </script>

@@ -3,14 +3,14 @@
     <div
       class="flex flex-col w-full justify-center items-center md:px-[82px] px-[22px] md:my-16 my-8"
     >
-      <IngreInfo :whole-data="wholeData"/>
+      <IngreInfo :whole-data="wholeData" @readMore="readMore"/>
     </div>
   </div>
   <div v-else class="w-full bg-[#fafafa]">
     <div
       class="flex w-full justify-center my-8"
     >
-      <IngreInfoMobile :whole-data="wholeData"/>
+      <IngreInfoMobile :whole-data="wholeData" @readMore="readMore"/>
     </div>
   </div>
 </template>
@@ -27,6 +27,11 @@ export default {
   components: {
     IngreInfo,
     IngreInfoMobile,
+  },
+  methods: {
+    readMore(mapKey){
+      this.$emit('readMore',mapKey)
+    }
   },
   data() {
     return {

@@ -50,13 +50,13 @@
         <div class="flex flex-col justify-between gap-y-[37px]">
           <div
             class="flex flex-col"
-            v-for="ingreDes in wholeData[indexSelect].innovation"
+            v-for="ingreDes,index2 in wholeData[indexSelect].innovation"
           >
             <div class="flex mb-3">
               <div class="ingre-detail-des-title">{{ ingreDes.title }}</div>
             </div>
             <div class="font-[16px] mb-4">{{ ingreDes.descrip }}</div>
-            <div class="flex cursor-pointer" v-if="ingreDes.more">
+            <div class="flex cursor-pointer" v-if="ingreDes.more" @click="readMore(index2)">
               <div
                 class="underline font-['DM Sans'] tracking-[0.28px] text-[14px]"
               >
@@ -121,6 +121,11 @@ export default {
       this.endX = 0;
       this.moveX = 0;
     },
+
+    readMore(index){
+      let mapKey = String(this.indexSelect + 1) + '_' + String(index + 1)
+      this.$emit('readMore',mapKey)
+    }
   },
   mounted() {
   },
