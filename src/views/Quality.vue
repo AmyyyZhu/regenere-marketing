@@ -20,6 +20,7 @@ import ChooseIngre from "../components/Quality/ChooseIngre.vue";
 import Synake from "../components/Quality/Synake.vue";
 import Snap8 from "../components/Quality/Snap8.vue";
 import Argireline from "../components/Quality/Argireline.vue"
+import Eyeseryl from "../components/Quality/Eyeseryl.vue";
 export default {
   components: {
     Banner,
@@ -29,10 +30,12 @@ export default {
     Synake,
     Snap8,
     Argireline,
+    Eyeseryl,
   },
   data() {
     return {
       compMap: {
+        "2_1":"Eyeseryl",
         "1_4":"Snap8",
         "1_6":"Argireline",
         "1_7": "Synake",

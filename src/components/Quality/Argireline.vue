@@ -68,7 +68,7 @@
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 2 -->
-          <div class="flex md:mb-[44px] mb-[44px]" id="snap8point2">
+          <div class="flex md:mb-[21px] mb-[44px]" id="snap8point2">
             <div
               class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-start"
             >
@@ -94,17 +94,44 @@
             </div>
           </div>
 
-          <div class="font-medium md:text-[16px] text-[12px]">MUSCLE CONTRACTION</div>
-          <div class="">
-            The neurotransmitter involved in muscle
-            contraction is acetylcholine and it is released from a vesicle into
-            the synapse. The SNARE protein complex is formed by three proteins:
-            VAMP, Syntaxin and SNAP-25 and it is essential for neurotransmitter
-            release at the synapsis and mediates the final steps of exocytosis.
-            This complex is like a cellular hook that captures vesicles and
-            brings them close to the membrane to enable their fusion.
+          <div class="font-medium md:text-[16px] text-[12px]">
+            MUSCLE CONTRACTION<br /><br />
           </div>
+          <div class="md:text-[14px] text-[12px] mb-[24px]">
+            The neurotransmitter involved in muscle contraction is acetylcholine
+            and it is released from a vesicle into the synapse. The SNARE
+            protein complex is formed by three proteins: VAMP, Syntaxin and
+            SNAP-25 and it is essential for neurotransmitter release at the
+            synapsis and mediates the final steps of exocytosis. This complex is
+            like a cellular hook that captures vesicles and brings them close to
+            the membrane to enable their fusion.
+          </div>
+          <div class="font-medium md:text-[16px] text-[12px]">
+            BOTULINUM TOXIN<br /><br />
+          </div>
+          <div class="md:text-[14px] text-[12px] mb-[24px]">
+            A Botulinum Toxin A paralyses the muscle by selectively blocking
+            acetylcholine release at the neuromuscular junction. BoNT-A cleaves
+            the protein SNAP-25 irreversibly, and therefore the SNARE complex
+            cannot assemble. The nerve signal cannot be relayed, the muscle
+            cannot contract and it is paralysed.
+          </div>
+          <div class="font-medium md:text-[16px] text-[12px]">
+            ARGIRELINE®<br /><br />
+          </div>
+          <p class="md:text-[14px] text-[12px] m-0">
+            <span class="text-[#e3c84c]">argireline®</span> is a mimic of the
+            N-terminal end of SNAP-25 and it competes with the natural protein
+            for a position in the SNARE complex, so it destabilizes its
+            formation, without breaking any of its components. If the SNARE
+            complex is slightly destabilized, the vesicle cannot release
+            neurotransmitters. As a consequence, muscle contraction is
+            attenuated and the muscle is relaxed.
+          </p>
 
+          <div class="flex justify-center mt-[24px] md:mb-[24px] mb-[48px]">
+            <img src="../../assets/Quality/Ingrediant/Argi/Pic1.svg" />
+          </div>
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 3 -->
@@ -121,92 +148,63 @@
                   In Vivo Efficacy
                 </p>
               </div>
-              <div class="flex mr-[26px] shrink-0">
-                <img src="../../assets/Quality/Ingrediant/Decrease.svg" />
+              <div class="flex mr-[26px] md:text-[40px] text-[30px] shrink-0">
+                17%
               </div>
               <div class="flex flex-col">
                 <p class="text-[14px] mb-2">
-                  <span class="text-[#d4b115]">{{ title }} </span>
-                  peptide reduces muscle cell contraction. Its action is
-                  fast-acting, long-lasting and fully reversible.
+                  Reduction in the depth of wrinkles up to 17% after 15 days
+                  with 10%
+                  <span class="text-[#d4b115]">argireline® </span>
+                  Solution. The depth of the furrow decreased a maximum value of
+                  32% in 28 days.
                 </p>
-                <div
-                  class="md:text-[14px] text-[12px] text-[#7d7d7d] font-normal"
-                >
-                  Applying for 1 month can delay the appearance of mimic
-                  wrinkles up to 5 years.
-                </div>
               </div>
+            </div>
+          </div>
+          <div
+            class="font-['DM Sans'] md:text-[24px] text-[12px] font-medium mb-[20px]"
+          >
+            DETERMINATION OF EFFICACY AGAINST SKIN WRINKLING
+          </div>
+          <div class="flex md:flex-row flex-col md:mb-[20px] mb-[30px]">
+            <div class="flex md:w-[55%] w-full md:mr-[14px] md:mb-0 mb-[20px]">
+              <p
+                class="md:text-[16px] text-[12px] md:leading-[18px] leading-[13px]"
+              >
+                <span class="text-[#e3c84c]">argireline®</span> Solution 10%<br /><br />
+                This study was carried out in 10 healthy women volunteers. An
+                O/W emulsion containing 10% argireline® Solution was applied
+                twice daily around the eyes for 30 days.<br />
+                Silicon imprints were obtained pre-test and after 15 and 30
+                days. Analyses of the imprints were performed by confocal laser
+                scanning microscopy.
+              </p>
+            </div>
+            <div class="flex item-center justify-center">
+              <img src="../../assets/Quality/Ingrediant/Argi/Pic3.svg" />
+            </div>
+          </div>
+          <div class="flex md:flex-row flex-col md:mb-[36px] mb-[48px]">
+            <div class="flex md:w-[55%] w-full md:mr-[14px] md:mb-0 mb-[20px]">
+              <p
+                class="md:text-[16px] text-[12px] md:leading-[18px] leading-[13px]"
+              >
+                <span class="text-[#e3c84c]">argireline®</span> Solution 5%<br /><br />
+                A cream containing 5%
+                <span class="text-[#e3c84c]">argireline®</span> Solution was
+                applied twice daily around the eyes of 14 volunteers, aged 39 to
+                64, for 28 days. <br />
+                Silicon imprints Of treated areas were measured by confocal
+                profilometry.
+              </p>
+            </div>
+            <div class="flex item-center justify-center">
+              <img src="../../assets/Quality/Ingrediant/Argi/Pic4.svg" />
             </div>
           </div>
 
-          <div class="flex md:mb-[60px] mb-[33px] md:pr-[40px]">
-            <div class="h-full mr-[18px] flex items-start">
-              <div
-                class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
-              >
-                01
-              </div>
-            </div>
-            <div class="flex flex-col">
-              <p class="md:text-[14px] text-[12px] font-medium">
-                ROUGHNESS AND WRINKLE DEPTH REDUCTION<br /><br />
-              </p>
-              <p class="md:text-[14px] text-[12px]">
-                Women applied a cream with 3%
-                <span class="md:text-[16px] text-[12px] text-[#e3c84c]"
-                  >Snap-8™</span
-                >
-                peptide solution C on half of their face and a placebo cream on
-                the other half twice a day for 28 days. Wrinkle average depth
-                and average roughness (Ra) were measured by fringe projection.
-              </p>
-            </div>
-          </div>
-          <div
-            class="md:pl-[38.6px] flex justify-center md:pr-[40px] md:[60px] mb-[45px]"
-          >
-            <img
-              src="../../assets/Quality/Ingrediant/Snap8/Pic2.svg"
-              class=""
-            />
-          </div>
-          <div class="flex md:mb-[60px] mb-[33px] md:pr-[40px]">
-            <div class="h-full mr-[18px] flex items-start">
-              <div
-                class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
-              >
-                02
-              </div>
-            </div>
-            <div class="flex flex-col">
-              <p class="md:text-[14px] text-[12px] font-medium">
-                RELAXED SKIN, LESS PROFOUND WRINKLES<br /><br />
-              </p>
-              <p class="md:text-[14px] text-[12px]">
-                25 women applied a cream with 10%
-                <span
-                  class="md:text-[16px] uppercase text-[12px] text-[#e3c84c]"
-                  >Snap-8™</span
-                >
-                peptide solution C on half of their face and a placebo cream on
-                the other half twice a day for 14 days. Expression wrinkles were
-                evaluated by fringe projection.
-              </p>
-            </div>
-          </div>
-          <div
-            class="md:pl-[38.6px] flex justify-center md:pr-[40px] md:mb-[60px] mb-[48px]"
-          >
-            <img
-              src="../../assets/Quality/Ingrediant/Snap8/Pic3.svg"
-              class=""
-            />
-          </div>
-          <div
-            class="h-[1px] bg-[#a4a4a4] md:mt-3 md:mb-[76px] mb-[45px]"
-          ></div>
-
+          <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
           <!-- Point 5 -->
           <div class="flex flex-col md:w-[315px]" id="snap8point4">
             <p
