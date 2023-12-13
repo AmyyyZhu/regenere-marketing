@@ -30,7 +30,7 @@
                 <p
                   class="font-['DM Sans'] md:text-[24px] text-[14px] md:tracking-[0.48px] tracking-[0.28px]"
                 >
-                  Argireline®
+                  Decorinyl®
                 </p>
               </div>
               <div class="flex mr-[26px] shrink-0">
@@ -38,12 +38,12 @@
               </div>
               <div class="flex flex-col">
                 <div class="text-[14px] font-normal">
-                  The first peptide for expression wrinkles
+                  Significant effect on the regulation of fibrillogenesis
                 </div>
                 <p class="text-[12px] text-[#7d7d7d]">
-                  <span class="text-[#d4b115]">Argireline® </span>
-                  is a safer topical alternative to Botulinum Toxin, it
-                  effective in only 15 days, pharmaceutical quality.
+                  <span class="text-[#d4b115]">Decorinyl® </span>
+                  functional ingredient ensures the regular spacing of 
+                  collagen fibrils, maintaining tissue shape.
                 </p>
               </div>
             </div>
@@ -51,29 +51,30 @@
 
           <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mt-3 md:mb-4"></div>
           <div class="text-[#d4b115] md:text-[18px] text-[12px] md:mb-7 mb-4">
-            The first hexapeptide that is a mimic of the N-terminal end of
-            SNAP-25 which competes with this protein for a position in the SNARE
-            complex. argireline® is an alternative to Botulinum Toxin, topically
-            targeting the same wrinkle-formation mechanism in a very different
-            way.
+            Mimic tetrapeptide of the sequences of decorin that specifically bind to 
+            collagen fibrils, improving skin suppleness and providing higher resiliency. 
+            decorinyl® functional ingredient comprises a liposomal system for enhanced 
+            penetration and increased efficacy.
           </div>
           <div
             class="uppercase font-normal text-[#a4a4a4] md:text-[20px] text-[14px] md:mb-3 mb-2"
           >
             INCI
           </div>
-          <div class="md:text-[18px] text-[12px] md:mb-[100px] mb-12">
-            Water (Aqua), Acetyl Hexapeptide-8.
+          <div class="md:text-[18px] text-[12px] md:mb-[50px] mb-12">
+            Water (Aqua), Lecithin, Tripeptide-10 Citrulline, Carbomer, Triethanolamine,<br /> 
+            Caprylyl Glycol, Phenoxyethanol. <br />
+            Paraben free.
           </div>
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 2 -->
-          <div class="flex md:mb-[21px] mb-[44px]" id="snap8point2">
+          <div class="flex md:mb-[21px] mb-[44px] md:mt-[24px]" id="snap8point2">
             <div
               class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-start"
             >
               <div
-                class="w-1/2 md:h-full flex border-r items-start md:border-[#a4a4a4] md:mr-[10px]"
+                class="min-w-[204px] md:h-full md:border-r flex items-center md:border-[#a4a4a4] md:mr-[20px]"
               >
                 <p
                   class="font-['DM Sans'] md:text-[24px] text-[14px] md:tracking-[0.48px] tracking-[0.28px]"
@@ -81,61 +82,137 @@
                   In Vitro Efficacy
                 </p>
               </div>
-              <div class="flex w-1/2 flex-col">
-                <div class="text-[14px] mb-2 font-normal">
-                  Wrinkle depth was up to 38% lower
-                </div>
-                <p class="text-[12px]">
-                  Average roughness and wrinkle depth decreased by 11.9% and
-                  7.1% respectively.Maximum depth of the biggest wrinkle
-                  decreased by up to72.2%
+              <div class="flex mr-[26px] md:mt-[30px] shrink-0">
+                <img src="../../assets/Quality/Ingrediant/Increase.svg" />
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[14px] mb-2">
+                  Improvement in the quality of collagen fibers
                 </p>
+                <div
+                  class="md:text-[14px] text-[12px] text-[#7d7d7d] font-normal"
+                >
+                  <span class="text-[#d4b115]">{{ title }} </span>
+                  functional ingredient guarantees uniformity of fibril 
+                  diameter, helping to establish skin mechanical properties.
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="font-medium md:text-[16px] text-[12px]">
-            MUSCLE CONTRACTION<br /><br />
+          <div class="flex md:mb-[60px] mb-[33px] md:pr-[40px]">
+            <div class="h-full mr-[18px] flex items-start">
+              <div
+                class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
+              >
+                01
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <p class="md:text-[14px] text-[12px] font-medium">
+                REGULATION OF COLLAGEN FIBRILLOGENESIS<br /><br />
+              </p>
+              <p class="md:text-[14px] text-[12px]">
+                Type I collagen samples were treated with decorinyl® functional ingredient at different <br />
+                concentrations. The process of fibrillogenesis was measured by turbidity readings. <br />
+                All tested concentrations of decorinyl® functional ingredient present significant activity on <br />
+                regulation of fibrillogenesis respect to control, in a dose-dependent manner.
+              </p>
+            </div>
           </div>
-          <div class="md:text-[14px] text-[12px] mb-[24px]">
-            The neurotransmitter involved in muscle contraction is acetylcholine
-            and it is released from a vesicle into the synapse. The SNARE
-            protein complex is formed by three proteins: VAMP, Syntaxin and
-            SNAP-25 and it is essential for neurotransmitter release at the
-            synapsis and mediates the final steps of exocytosis. This complex is
-            like a cellular hook that captures vesicles and brings them close to
-            the membrane to enable their fusion.
+          <div class="flex justify-center md:pb-[24px] mb-[48px]">
+            <img src="../../assets/Quality/decorinyl/decorinyl_chart1.png" />
           </div>
-          <div class="font-medium md:text-[16px] text-[12px]">
-            BOTULINUM TOXIN<br /><br />
+          <div class="flex md:mb-[60px] mb-[36px] md:pr-[40px]">
+            <div class="h-full mr-[18px] flex items-start">
+              <div
+                class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
+              >
+                02
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <p class="md:text-[14px] text-[12px] font-medium">
+                DERMAL COLLAGEN FIBRILS STUDY<br /><br />
+              </p>
+              <p class="md:text-[14px] text-[12px] md:pr-[30px]">
+                Tissues from a tridimensional human skin model were<br />
+                treated with 0.01% decorinyl® functional ingredient<br /> 
+                (peptide concentration). <br />
+                Skin sections were observed by Transmission <br />
+                Electron Microscopy (TEM). <br />
+                The diameter of collagen fibres was measured and <br />
+                statistically analysed using the One way ANOVA<br />
+                analysis.
+              </p>
+            </div>
+            <img src="../../assets/Quality/decorinyl/decorinyl_chart2.png" />
           </div>
-          <div class="md:text-[14px] text-[12px] mb-[24px]">
-            A Botulinum Toxin A paralyses the muscle by selectively blocking
-            acetylcholine release at the neuromuscular junction. BoNT-A cleaves
-            the protein SNAP-25 irreversibly, and therefore the SNARE complex
-            cannot assemble. The nerve signal cannot be relayed, the muscle
-            cannot contract and it is paralysed.
-          </div>
-          <div class="font-medium md:text-[16px] text-[12px]">
-            ARGIRELINE®<br /><br />
-          </div>
-          <p class="md:text-[14px] text-[12px] m-0">
-            <span class="text-[#e3c84c]">argireline®</span> is a mimic of the
-            N-terminal end of SNAP-25 and it competes with the natural protein
-            for a position in the SNARE complex, so it destabilizes its
-            formation, without breaking any of its components. If the SNARE
-            complex is slightly destabilized, the vesicle cannot release
-            neurotransmitters. As a consequence, muscle contraction is
-            attenuated and the muscle is relaxed.
-          </p>
 
-          <div class="flex justify-center mt-[24px] md:mb-[24px] mb-[48px]">
-            <img src="../../assets/Quality/Ingrediant/Argi/Pic1.svg" />
-          </div>
+
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 3 -->
-          <div class="flex md:mb-[21px] mb-[44px]" id="snap8point3">
+          <div class="flex md:mb-[21px] mb-[44px] md:mt-[24px]" id="snap8point3">
+            <div
+              class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-center"
+            >
+              <div
+                class="min-w-[204px] md:h-full md:border-r flex items-start md:border-[#a4a4a4] md:mr-[20px]"
+              >
+                <p
+                  class="font-['DM Sans'] md:text-[24px] text-[14px] md:tracking-[0.48px] tracking-[0.28px]"
+                >
+                  Ex Vivo Efficacy
+                </p>
+              </div>
+              <div class="flex self-start mr-[26px] md:text-[40px] text-[30px] shrink-0">
+                -9%
+              </div>
+              <div class="flex flex-col">
+                <p class="text-[14px] mb-2">
+                  decrease of the standard deviation of collagen fibril diameter
+                </p>
+                <div
+                  class="md:text-[14px] text-[12px] text-[#7d7d7d] font-normal"
+                >
+                  <span class="text-[#d4b115]">{{ title }} </span>
+                  functional ingredient guarantees uniformity of fibril 
+                  diameter, helping to establish skin mechanical properties.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex md:flex-row flex-col md:mb-[36px] mb-[48px]">
+            <div class="flex flex-col">
+              <p class="md:text-[14px] text-[12px] font-medium">
+                HISTOCHEMICAL STUDY OF HUMAN BIOPSIES<br /><br />
+              </p>
+              <p class="md:text-[14px] text-[12px]">
+                Skin biopsies of three volunteers were evaluated before and after a two-month treatment with a 
+                cosmetic formulation containing 0.01% decorinyl® functional ingredient (peptide concentration).
+                The collagen fibril diameter was measured from Transmission Electron Micrographs.
+              </p>
+            </div>
+          </div>
+          <div
+            class="md:pl-[38.6px] flex justify-center md:pr-[40px] md:mb-[36px] mb-[12px]"
+          >
+            <img
+              src="../../assets/Quality/decorinyl/decorinyl_img1.png"
+              class="md:pr-[100px]"
+            />
+           <img
+              src="../../assets/Quality/decorinyl/decorinyl_img2.png"
+              class=""
+            />
+          </div>
+          <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
+
+
+          <!-- Point 4 -->
+          <div class="flex md:mb-[21px] mb-[44px] md:mt-[12px]" id="snap8point3">
             <div
               class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-center"
             >
@@ -148,65 +225,66 @@
                   In Vivo Efficacy
                 </p>
               </div>
-              <div class="flex mr-[26px] md:text-[40px] text-[30px] shrink-0">
-                17%
+              <div class="flex self-start mr-[26px] md:text-[40px] text-[30px] shrink-0">
+                +54%
               </div>
               <div class="flex flex-col">
                 <p class="text-[14px] mb-2">
-                  Reduction in the depth of wrinkles up to 17% after 15 days
-                  with 10%
-                  <span class="text-[#d4b115]">argireline® </span>
-                  Solution. The depth of the furrow decreased a maximum value of
-                  32% in 28 days.
+                  Increase in skin suppleness after 28 days
                 </p>
+                <div
+                  class="md:text-[14px] text-[12px] text-[#7d7d7d] font-normal"
+                >
+                  <span class="text-[#d4b115]">{{ title }} </span>
+                  functional ingredient guarantees uniformity of fibril 
+                  diameter, helping to establish skin mechanical properties.
+                </div>
               </div>
             </div>
           </div>
-          <div
-            class="font-['DM Sans'] md:text-[24px] text-[12px] font-medium mb-[20px]"
-          >
-            DETERMINATION OF EFFICACY AGAINST SKIN WRINKLING
-          </div>
-          <div class="flex md:flex-row flex-col md:mb-[20px] mb-[30px]">
-            <div class="flex md:w-[55%] w-full md:mr-[14px] md:mb-0 mb-[20px]">
-              <p
-                class="md:text-[16px] text-[12px] md:leading-[18px] leading-[13px]"
-              >
-                <span class="text-[#e3c84c]">argireline®</span> Solution 10%<br /><br />
-                This study was carried out in 10 healthy women volunteers. An
-                O/W emulsion containing 10% argireline® Solution was applied
-                twice daily around the eyes for 30 days.<br />
-                Silicon imprints were obtained pre-test and after 15 and 30
-                days. Analyses of the imprints were performed by confocal laser
-                scanning microscopy.
+
+          <div class="flex md:flex-row flex-col md:mb-[26px] mb-8">
+            <div class="flex flex-col">
+              <p class="md:text-[14px] text-[12px] font-medium">
+                SKIN SUPPLENESS<br /><br />
+              </p>
+              <p class="md:text-[14px] text-[12px] md:pr-[30px]">
+                The test was performed on a group of 22 female <br />
+                volunteers between the ages of 40 and 58. A cream <br />
+                containing 5% decorinyl functional ingredient was applied <br />
+                daily on the face for 28 days. Another group of 21 female <br />
+                was treated with a placebo cream. Variations of skin <br />
+                suppleness were measured at time 0 and after 28 days.
               </p>
             </div>
-            <div class="flex item-center justify-center">
-              <img src="../../assets/Quality/Ingrediant/Argi/Pic3.svg" />
-            </div>
+            <img src="../../assets/Quality/decorinyl/decorinyl_chart3.png" />
+          </div>
+          <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
+
+          <!-- Point 6 -->
+          <div class="flex flex-col md:w-[315px]" id="snap8point4">
+            <p
+              class="md:text-[24px] text-[14px] font-medium font-['DM Sans'] md:mb-[18px] mb-[12px]"
+            >
+              In Vivo Safety
+            </p>
           </div>
           <div class="flex md:flex-row flex-col md:mb-[36px] mb-[48px]">
-            <div class="flex md:w-[55%] w-full md:mr-[14px] md:mb-0 mb-[20px]">
-              <p
-                class="md:text-[16px] text-[12px] md:leading-[18px] leading-[13px]"
-              >
-                <span class="text-[#e3c84c]">argireline®</span> Solution 5%<br /><br />
-                A cream containing 5%
-                <span class="text-[#e3c84c]">argireline®</span> Solution was
-                applied twice daily around the eyes of 14 volunteers, aged 39 to
-                64, for 28 days. <br />
-                Silicon imprints Of treated areas were measured by confocal
-                profilometry.
+            <div class="flex flex-col">
+              <p class="md:text-[14px] text-[12px] font-medium">
+                SKIN SENSITISATION (HYPOALLERGENICITY)<br /><br />
+              </p>
+              <p class="md:text-[14px] text-[12px]">
+                An HRIPT (Human Repeated Insult Patch Test) was performed on 100 volunteers aged 25 to 59. 
+                Decorinyl® did not cause sensitisation in any volunteer so it can be classified as "harmless” as regards 
+                of the possibility of skin irritation.
               </p>
             </div>
-            <div class="flex item-center justify-center">
-              <img src="../../assets/Quality/Ingrediant/Argi/Pic4.svg" />
-            </div>
           </div>
-
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
-          <!-- Point 5 -->
-          <div class="flex flex-col md:w-[315px]" id="snap8point4">
+          
+          <!-- Point 7 -->
+          <div class="flex flex-col md:min-w-[315px]" id="snap8point4">
             <p
               class="md:text-[24px] text-[14px] font-medium font-['DM Sans'] md:mb-[18px] mb-[12px]"
             >
@@ -221,7 +299,7 @@
             <p
               class="md:text-[18px] text-[12px] font-['DM Sans'] md:mb-[100px] mb-[60px]"
             >
-              Mycotxins, environmental toxins Tests
+              The results showed no mycotxins, environmental toxins
             </p>
             <p class="text-[10px] mb-[400px]">
               Argireline® is a trademark of Lubrizol Corporation or its
@@ -244,11 +322,15 @@ export default {
     return {
       navi: [
         {
-          title: "Argireline",
+          title: "Decorinyl",
           item: ["Description", "INCI"],
         },
         {
           title: "Efficacy",
+          item: ["In Vitro Efficacy", "Ex Vivo Efficacy", "In Vivo Efficacy"],
+        },
+        {
+          title: "Safety",
           item: ["In Vitro Efficacy", "In Vivo Efficacy"],
         },
         {
@@ -263,7 +345,7 @@ export default {
         "In Vivo Efficacy": "snap8point3",
         Testing: "snap8point4",
       },
-      title: "Argireline®",
+      title: "Decorinyl®",
     };
   },
   components: {
