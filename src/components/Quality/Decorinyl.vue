@@ -8,7 +8,7 @@
       <img src="../../assets/Quality/Ingrediant/CloseButton.svg" />
     </div>
     <div class="md:w-[18%] w-0 flex justify-end">
-      <div class="mt-[200px] w-[102px]">
+      <div class="mt-[200px] w-[103px]">
         <NaviBar :navi="navi" @naviTo="naviTo" />
       </div>
     </div>
@@ -212,7 +212,7 @@
 
 
           <!-- Point 4 -->
-          <div class="flex md:mb-[21px] mb-[44px] md:mt-[12px]" id="snap8point3">
+          <div class="flex md:mb-[21px] mb-[44px] md:mt-[12px]" id="snap8point4">
             <div
               class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-center"
             >
@@ -262,7 +262,7 @@
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
 
           <!-- Point 6 -->
-          <div class="flex flex-col md:w-[315px]" id="snap8point4">
+          <div class="flex flex-col md:w-[315px]" id="snap8point6">
             <p
               class="md:text-[24px] text-[14px] font-medium font-['DM Sans'] md:mb-[18px] mb-[12px]"
             >
@@ -284,7 +284,7 @@
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
           
           <!-- Point 7 -->
-          <div class="flex flex-col md:min-w-[315px]" id="snap8point4">
+          <div class="flex flex-col md:min-w-[315px]" id="snap8point7">
             <p
               class="md:text-[24px] text-[14px] font-medium font-['DM Sans'] md:mb-[18px] mb-[12px]"
             >
@@ -342,8 +342,11 @@ export default {
         Description: "snap8point1",
         INCI: "snap8point1",
         "In Vitro Efficacy": "snap8point2",
-        "In Vivo Efficacy": "snap8point3",
-        Testing: "snap8point4",
+        "Ex Vivo Efficacy": "snap8point3",
+        "In Vivo Efficacy": "snap8point4",
+        // "In Vitro Safety": "snap8point5",
+        "In Vivo Safety": "snap8point6",
+        Testing: "snap8point7",
       },
       title: "Decorinyl®",
     };
