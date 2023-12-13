@@ -7,7 +7,7 @@
       <div class="mt-[200px] w-[102px]"><NaviBar :navi="navi" @naviTo="naviTo"/></div>
     </div>
     <div class="md:w-[82%] w-full flex flex-col overflow-scroll" id="synakewholeBox">
-      <Title :title="title" class="mb-6" />
+      <Title :title="title" class="mb-6" @backTo="backTo"/>
       <div class="md:px-[44px] px-[27px] w-full flex justify-center">
         <div class="flex flex-col w-full">
           <!-- Main CONTENT
@@ -54,12 +54,12 @@
           <div
             class="uppercase font-normal text-[#a4a4a4] md:text-[20px] text-[14px] md:mb-3 mb-2"
           >
-            INCO
+            INCI
           </div>
           <div class="md:text-[18px] text-[12px] md:mb-[100px] mb-12">
             Diaminobutyroyl Benzylamide Diacetate
           </div>
-          <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
+          <div class="h-[1px]  bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 2 -->
           <div class="flex md:mb-[21px] mb-[44px]" id="synakepoint2">
@@ -97,7 +97,7 @@
           <div class="w-full justify-center md:mb-0 mb-12">
             <img src="../../assets//Quality/Ingrediant/Synake/Pic1.svg" />
           </div>
-          <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
+          <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 3 -->
           <div class="flex md:mb-[21px] mb-[44px]" id="synakepoint3">
@@ -119,14 +119,12 @@
               <div class="flex flex-col">
                 <p class="text-[14px] mb-2">
                   <span class="text-[#d4b115]">{{ title }} </span>
-                  peptide reduces muscle cell contraction. Its action is
-                  fast-acting, long-lasting and fully reversible.
+                  visibly reduces deep wrinkles in just 4 weeks
                 </p>
                 <div
                   class="md:text-[14px] text-[12px] text-[#7d7d7d] font-normal"
                 >
-                  Applying for 1 month can delay the appearance of mimic
-                  wrinkles up to 5 years.
+                Applying for 1 month can delay the appearance of mimic wrinkles up to 5 years.
                 </div>
               </div>
             </div>
@@ -308,6 +306,9 @@ export default {
       const inele = document.getElementById(this.naviMap[item]);
       let scorllH = inele.offsetTop - outele.offsetTop;
       outele.scrollTo({top:scorllH,behavior:'smooth'})
+    },
+    backTo(){
+      this.$emit('backTo');
     }
   },
 };

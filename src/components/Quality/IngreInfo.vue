@@ -45,13 +45,13 @@
         <div class="flex flex-row justify-between gap-y-[37px] flex-wrap">
           <div
             class="w-[30%] flex flex-col"
-            v-for="ingreDes in wholeData[indexSelect].innovation"
+            v-for="ingreDes,index2 in wholeData[indexSelect].innovation"
           >
             <div class="flex mb-3">
               <div class="ingre-detail-des-title">{{ ingreDes.title }}</div>
             </div>
             <div class="font-[16px] mb-4">{{ ingreDes.descrip }}</div>
-            <div class="flex cursor-pointer" v-if="ingreDes.more">
+            <div class="flex cursor-pointer" v-if="ingreDes.more" @click="readMore(index2)">
               <div
                 class="underline font-['DM Sans'] tracking-[0.28px] text-[14px]"
               >
@@ -108,15 +108,15 @@
         <div class="flex flex-row justify-between gap-y-[37px] flex-wrap">
           <div
             class="w-[30%] flex flex-col"
-            v-for="ingreDes in wholeData[indexSelect].innovation"
+            v-for="ingreDes,index2 in wholeData[indexSelect].innovation"
           >
             <div class="flex mb-3">
               <div class="ingre-detail-des-title">{{ ingreDes.title }}</div>
             </div>
             <div class="font-[16px] mb-4">{{ ingreDes.descrip }}</div>
-            <div class="flex cursor-pointer" v-if="ingreDes.more">
+            <div class="flex cursor-pointer" v-if="ingreDes.more" @click="readMore(index2)">
               <div
-                class="underline font-['DM Sans'] tracking-[0.28px] text-[14px]"
+                class="underline font-['DM Sans'] tracking-[0.28px] text-[14px]" 
               >
                 Read More
               </div>
@@ -160,6 +160,10 @@ export default {
         }
       }
     },
+    readMore(index){
+      let mapKey = String(this.indexSelect + 1) + '_' + String(index+1);
+      this.$emit('readMore',mapKey)
+    }
   },
   props:{
     wholeData: Array,

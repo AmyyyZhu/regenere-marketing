@@ -16,10 +16,9 @@
       class="md:w-[82%] w-full flex flex-col overflow-scroll"
       id="snap8wholeBox"
     >
-      <Title :title="title" class="mb-6" />
+      <Title :title="title" class="mb-6" @backTo="backTo"/>
       <div class="md:px-[44px] px-[27px] w-full flex justify-center">
         <div class="flex flex-col w-full">
-          
           <!-- Point 1 -->
           <div class="flex" id="snap8point1">
             <div
@@ -31,21 +30,20 @@
                 <p
                   class="font-['DM Sans'] md:text-[24px] text-[14px] md:tracking-[0.48px] tracking-[0.28px]"
                 >
-                  {{ pointTitle1.title }}
+                  SNAP-8™
                 </p>
               </div>
               <div class="flex mr-[26px] shrink-0">
-                <img src="../../assets/Quality/Ingrediant/Increase.svg" />
+                <img src="../../assets/Quality/Ingrediant/Decrease.svg" />
               </div>
               <div class="flex flex-col">
                 <div class="text-[14px] font-normal">
-                  {{ pointTitle1.description[0] }}
+                  Premium topical alternative to botulinum toxin
                 </div>
                 <p class="text-[12px] text-[#7d7d7d]">
-                  <span class="text-[#d4b115]"
-                    >{{ pointTitle1.description[1] }}
-                  </span>
-                  {{ pointTitle1.description[2] }}
+                  <span class="text-[#d4b115]">SNAP-8™ </span>
+                  targets persistent expression wrinkles Up to 72% reduction in
+                  maximum depth of wrinkle
                 </p>
               </div>
             </div>
@@ -53,30 +51,27 @@
 
           <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mt-3 md:mb-4"></div>
           <div class="text-[#d4b115] md:text-[18px] text-[12px] md:mb-7 mb-4">
-            Syn®-ake attenuates neuronal signal transduction likely by binding
-            to mnAChR. It is a snake venom-mimicking peptide with a BOTOX-like
-            effect, excellent smoothing and anti-wrinkle properties,
-            effectiveness against mimic wrinkles, thorough safety testing, ease
-            of formulation, and the recipient of the Swiss Technology Award in
-            2006.
+            An octapeptide that is an elongation of Argireline® peptide,
+            therefore it reduces expression wrinkles topically with an
+            alternative mechanism to botulinum toxin.
           </div>
           <div
             class="uppercase font-normal text-[#a4a4a4] md:text-[20px] text-[14px] md:mb-3 mb-2"
           >
-            INCO
+            INCI
           </div>
           <div class="md:text-[18px] text-[12px] md:mb-[100px] mb-12">
-            Diaminobutyroyl Benzylamide Diacetate
+            Water (Aqua), Acetyl Octapeptide-3, Caprylyl Glycol.
           </div>
-          <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
+          <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 2 -->
-          <div class="flex md:mb-[21px] mb-[44px]" id="snap8point2">
+          <div class="flex md:mb-[44px] mb-[44px]" id="snap8point2">
             <div
-              class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-center"
+              class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-start"
             >
               <div
-                class="min-w-[204px] md:h-full md:border-r flex items-start md:border-[#a4a4a4] md:mr-[20px]"
+                class="min-w-[204px] md:h-full flex items-start md:border-[#a4a4a4] md:mr-[20px]"
               >
                 <p
                   class="font-['DM Sans'] md:text-[24px] text-[14px] md:tracking-[0.48px] tracking-[0.28px]"
@@ -84,29 +79,63 @@
                   In Vitro Efficacy
                 </p>
               </div>
-              <div class="flex mr-[26px] shrink-0">
-                <img src="../../assets/Quality/Ingrediant/Decrease.svg" />
+              <div class="flex mr-[26px] md:text-[40px] text-[30px] shrink-0">
+                -38%
               </div>
               <div class="flex flex-col">
                 <div class="text-[14px] mb-2 font-normal">
-                  Contraction of the innervated muscle cells
+                  Wrinkle depth was up to 38% lower
                 </div>
                 <p class="text-[12px]">
-                  <span class="text-[#d4b115]">{{ title }} </span>
-                  peptide reduces muscle cell contraction. Its action is
-                  fast-acting, long-lasting and fully reversible.
+                  Average roughness and wrinkle depth decreased by 11.9% and
+                  7.1% respectively.Maximum depth of the biggest wrinkle
+                  decreased by up to72.2%
                 </p>
               </div>
             </div>
           </div>
-          <div class="md:text-[16px] text-[14px] mb-4">
-            Frequency of contraction as a function of post-incubation time
-            (Peptide concentration: 0.5 mM)
+          <div class="flex justify-between mb-12" v-if="width > 768">
+            <div class="flex w-[158px] flex-col self-end">
+              <div class="font-['DM Sans'] text-[14px] text-[#e3c84c] mb-2">
+                Release of the Neurotransmitter Glutamate
+              </div>
+              <div class="font-['DM Sans'] text-[14px]">Up to 43% decrease</div>
+            </div>
+            <div class="shrink-0">
+              <img src="../../assets/Quality/Ingrediant/Snap8/Pic1.svg" />
+            </div>
+            <div class="flex w-[158px] flex-col">
+              <div class="font-['DM Sans'] text-[14px] text-[#e3c84c] mb-2">
+                Inhibition of snare complex formation
+              </div>
+              <div class="font-['DM Sans'] text-[14px]">65% reduction</div>
+            </div>
           </div>
-          <div class="w-full justify-center md:mb-0 mb-12">
-            <img src="../../assets//Quality/Ingrediant/Synake/Pic1.svg" />
+          <div v-else class="flex flex-col mb-12 w-full items-center">
+            <div class="flex w-full justify-end mb-3">
+              <div class="flex w-[158px] flex-col">
+                <div class="font-['DM Sans'] text-[14px] text-[#e3c84c] mb-2">
+                  Inhibition of snare complex formation
+                </div>
+                <div class="font-['DM Sans'] text-[14px]">65% reduction</div>
+              </div>
+            </div>
+            <div class="shrink-0 justify-self-center mb-3">
+              <img src="../../assets/Quality/Ingrediant/Snap8/Pic1.svg" />
+            </div>
+            <div class="flex w-full">
+              <div class="flex w-[158px] flex-col">
+                <div class="font-['DM Sans'] text-[14px] text-[#e3c84c] mb-2">
+                  Release of the Neurotransmitter Glutamate
+                </div>
+                <div class="font-['DM Sans'] text-[14px]">
+                  Up to 43% decrease
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
+
+          <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 3 -->
           <div class="flex md:mb-[21px] mb-[44px]" id="snap8point3">
@@ -141,7 +170,7 @@
             </div>
           </div>
 
-          <div class="flex md:mb-[25px] mb-[45px] md:pr-[40px]">
+          <div class="flex md:mb-[60px] mb-[33px] md:pr-[40px]">
             <div class="h-full mr-[18px] flex items-start">
               <div
                 class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
@@ -151,34 +180,28 @@
             </div>
             <div class="flex flex-col">
               <p class="md:text-[14px] text-[12px] font-medium">
-                Wrinkles on Forehead<br /><br />
+                ROUGHNESS AND WRINKLE DEPTH REDUCTION<br /><br />
               </p>
               <p class="md:text-[14px] text-[12px]">
-                Both the smoothing effect, measured on 80% of the volunteers,
-                and the anti-wrinkle effect, measured on 73% of the volunteers,
-                were evaluated after 28 days on the forehead and resulted in a
-                reduction of up to 21%. The impact of
+                Women applied a cream with 3%
                 <span class="md:text-[16px] text-[12px] text-[#e3c84c]"
-                  >Syn®-ake</span
+                  >Snap-8™</span
                 >
-                (4%) on smoothing (Ra) and anti-wrinkle (Rz and Rt) was compared
-                to that of a competitive product (10%) and a placebo.
+                peptide solution C on half of their face and a placebo cream on
+                the other half twice a day for 28 days. Wrinkle average depth
+                and average roughness (Ra) were measured by fringe projection.
               </p>
             </div>
           </div>
-          <div class="md:pl-[38.6px] md:pr-[40px] md:mb-5 mb-8">
+          <div
+            class="md:pl-[38.6px] flex justify-center md:pr-[40px] md:[60px] mb-[45px]"
+          >
             <img
-              src="../../assets/Quality/Ingrediant/Synake/Pic2.svg"
-              class="w-full"
+              src="../../assets/Quality/Ingrediant/Snap8/Pic2.svg"
+              class=""
             />
           </div>
-          <div class="md:pl-[38.6px] md:pr-[40px] md:mb-5 mb-8">
-            <img
-              src="../../assets/Quality/Ingrediant/Synake/Pic3.svg"
-              class="w-full"
-            />
-          </div>
-          <div class="flex md:mb-[25px] mb-[45px] md:pr-[40px]">
+          <div class="flex md:mb-[60px] mb-[33px] md:pr-[40px]">
             <div class="h-full mr-[18px] flex items-start">
               <div
                 class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
@@ -188,35 +211,24 @@
             </div>
             <div class="flex flex-col">
               <p class="md:text-[14px] text-[12px] font-medium">
-                Wrinkles on Crow’s<br /><br />
+                RELAXED SKIN, LESS PROFOUND WRINKLES<br /><br />
               </p>
               <p class="md:text-[14px] text-[12px]">
-                Feet Effect of
+                25 women applied a cream with 10%
                 <span
                   class="md:text-[16px] uppercase text-[12px] text-[#e3c84c]"
-                  >Syn®-ake</span
+                  >Snap-8™</span
                 >
-                (4%) on smoothing (Ra) and anti-wrinkle (Rz and Rt) measured on
-                the crow's feet after 28 days, compared with a competitive
-                product (10%) and placebo.
-                <span
-                  class="md:text-[16px] uppercase text-[12px] text-[#e3c84c]"
-                  >Syn®-ake</span
-                >
-                reduces all wrinkle aspects of crow’s feet.
+                peptide solution C on half of their face and a placebo cream on
+                the other half twice a day for 14 days. Expression wrinkles were
+                evaluated by fringe projection.
               </p>
             </div>
           </div>
-          <div class="md:pl-[38.6px] md:pr-[40px] md:mb-5 mb-8">
+          <div class="md:pl-[38.6px] flex justify-center md:pr-[40px] md:mb-[60px] mb-[48px]">
             <img
-              src="../../assets/Quality/Ingrediant/Synake/Pic4.svg"
-              class="w-full"
-            />
-          </div>
-          <div class="md:pl-[38.6px] md:pr-[40px] md:mb-5 mb-8">
-            <img
-              src="../../assets/Quality/Ingrediant/Synake/Pic5.svg"
-              class="w-full"
+              src="../../assets/Quality/Ingrediant/Snap8/Pic3.svg"
+              class=""
             />
           </div>
           <div
@@ -282,16 +294,6 @@ export default {
         Testing: "snap8point4",
       },
       title: "SNAP-8™",
-      pointTitle1: {
-        title: "Syn®-ake",
-        picture: "up",
-        content: "",
-        description: [
-          "Stop wrinkling -Keep laughing",
-          "Syn®-ake",
-          "Help your face to relax without loosing the ability to express yourself.",
-        ],
-      },
     };
   },
   components: {
@@ -313,6 +315,9 @@ export default {
       let scorllH = inele.offsetTop - outele.offsetTop;
       outele.scrollTo({ top: scorllH, behavior: "smooth" });
     },
+    backTo(){
+      this.$emit('backTo');
+    }
   },
 };
 </script>
