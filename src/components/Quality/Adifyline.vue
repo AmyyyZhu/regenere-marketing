@@ -30,7 +30,7 @@
                 <p
                   class="font-['DM Sans'] md:text-[24px] text-[14px] md:tracking-[0.48px] tracking-[0.28px]"
                 >
-                  Decorinyl®
+                  Adifyline®
                 </p>
               </div>
               <div class="flex mr-[26px] shrink-0">
@@ -38,12 +38,12 @@
               </div>
               <div class="flex flex-col">
                 <div class="text-[14px] font-normal">
-                  Significant effect on the regulation of fibrillogenesis
+                  Perfect curves against gravity
                 </div>
                 <p class="text-[12px] text-[#7d7d7d]">
-                  <span class="text-[#d4b115]">Decorinyl® </span>
-                  functional ingredient ensures the regular spacing of 
-                  collagen fibrils, maintaining tissue shape.
+                  <span class="text-[#d4b115]">Adifyline® </span>
+                  peptide stimulates adipogenesis, increases cheek volume
+                  and provides a curvy silhouette.
                 </p>
               </div>
             </div>
@@ -51,10 +51,14 @@
 
           <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mt-3 md:mb-4"></div>
           <div class="text-[#d4b115] md:text-[18px] text-[12px] md:mb-7 mb-4">
-            Mimic tetrapeptide of the sequences of decorin that specifically bind to 
-            collagen fibrils, improving skin suppleness and providing higher resiliency. 
-            decorinyl® functional ingredient comprises a liposomal system for enhanced 
-            penetration and increased efficacy.
+            Hexapeptide that increases fatty tissue volume
+            in specific areas improving facial appearance
+            and providing attractive body curves. adifyline®
+            peptide stimulates peroxisome proliferator-
+            activated receptor gamma coactivator la (PGC-1α)
+            expression, enhancing adipogenesis rate. This
+            leads to a higher lipid accumulation and volume
+            growth in the desired areas like breast and cheeks.
           </div>
           <div
             class="uppercase font-normal text-[#a4a4a4] md:text-[20px] text-[14px] md:mb-3 mb-2"
@@ -62,9 +66,7 @@
             INCI
           </div>
           <div class="md:text-[18px] text-[12px] md:mb-[50px] mb-12">
-            Water (Aqua), Lecithin, Tripeptide-10 Citrulline, Carbomer, Triethanolamine,<br /> 
-            Caprylyl Glycol, Phenoxyethanol. <br />
-            Paraben free.
+            Butylene Glycol, Water(Aqua), Acetyl Hexapeptide-38.
           </div>
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
@@ -87,14 +89,13 @@
               </div>
               <div class="flex flex-col">
                 <p class="text-[14px] mb-2">
-                  Improvement in the quality of collagen fibers
+                  <span class="text-[#d4b115]">adifyline®</span>
+                  peptide promoted PGC-1α expression by more than 61%
                 </p>
                 <div
                   class="md:text-[14px] text-[12px] text-[#7d7d7d] font-normal"
                 >
-                  <span class="text-[#d4b115]">{{ title }} </span>
-                  functional ingredient guarantees uniformity of fibril 
-                  diameter, helping to establish skin mechanical properties.
+                  Lipid accumulation is higher in cells treated with adifyline® peptide.
                 </div>
               </div>
             </div>
@@ -110,18 +111,18 @@
             </div>
             <div class="flex flex-col">
               <p class="md:text-[14px] text-[12px] font-medium">
-                REGULATION OF COLLAGEN FIBRILLOGENESIS<br /><br />
+                EFFECT ON PGC-1a EXPRESSION<br /><br />
               </p>
               <p class="md:text-[14px] text-[12px]">
-                Type I collagen samples were treated with decorinyl® functional ingredient at different <br />
-                concentrations. The process of fibrillogenesis was measured by turbidity readings. <br />
-                All tested concentrations of decorinyl® functional ingredient present significant activity on <br />
-                regulation of fibrillogenesis respect to control, in a dose-dependent manner.
+                Human preadipocytes were incubated in a growth medium and differentiated with preadipocyte
+                differentiation medium (PDM-2) in presence of <span class="text-[#d4b115]">adifyline®</span> peptide.
+                After 10 days, cells were lysed, RNA was extracted and reverse transcription was carried out. 
+                The resulting cDNA was analyzed by quantitative RT-PCR.
               </p>
             </div>
           </div>
           <div class="flex justify-center md:pb-[24px] mb-[48px]">
-            <img src="../../assets/Quality/decorinyl/decorinyl_chart1.png" />
+            <img src="../../assets/Quality/adifyline/adifyline_chart1.png" />
           </div>
           <div class="flex md:mb-[60px] mb-[36px] md:pr-[40px]">
             <div class="h-full mr-[18px] flex items-start">
@@ -133,86 +134,22 @@
             </div>
             <div class="flex flex-col">
               <p class="md:text-[14px] text-[12px] font-medium">
-                DERMAL COLLAGEN FIBRILS STUDY<br /><br />
+                EFFECT ON LIPID ACCUMULATION<br /><br />
               </p>
               <p class="md:text-[14px] text-[12px] md:pr-[30px]">
-                Tissues from a tridimensional human skin model were<br />
-                treated with 0.01% decorinyl® functional ingredient<br /> 
-                (peptide concentration). <br />
-                Skin sections were observed by Transmission <br />
-                Electron Microscopy (TEM). <br />
-                The diameter of collagen fibres was measured and <br />
-                statistically analysed using the One way ANOVA<br />
-                analysis.
+                <span class="text-[#d4b115]">adifyline®</span> peptide was added to human preadipocytes during 
+                their differentiation with PDM-2. After 10 days, levels of intra-cellular lipid droplets were 
+                measured by fluorescence.
               </p>
             </div>
-            <img src="../../assets/Quality/decorinyl/decorinyl_chart2.png" />
           </div>
-
-
+          <div class="flex justify-center md:pb-[24px] mb-[48px]">
+            <img src="../../assets/Quality/adifyline/adifyline_chart2.png" />
+          </div>
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 3 -->
-          <div class="flex md:mb-[21px] mb-[44px] md:mt-[24px]" id="snap8point3">
-            <div
-              class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-center"
-            >
-              <div
-                class="min-w-[204px] md:h-full md:border-r flex items-start md:border-[#a4a4a4] md:mr-[20px]"
-              >
-                <p
-                  class="self-start font-['DM Sans'] md:text-[24px] text-[14px] md:tracking-[0.48px] tracking-[0.28px]"
-                >
-                  Ex Vivo Efficacy
-                </p>
-              </div>
-              <div class="flex self-start mr-[26px] md:text-[40px] text-[30px] shrink-0">
-                -9%
-              </div>
-              <div class="flex flex-col">
-                <p class="text-[14px] mb-2">
-                  decrease of the standard deviation of collagen fibril diameter
-                </p>
-                <div
-                  class="md:text-[14px] text-[12px] text-[#7d7d7d] font-normal"
-                >
-                  <span class="text-[#d4b115]">{{ title }} </span>
-                  functional ingredient guarantees uniformity of fibril 
-                  diameter, helping to establish skin mechanical properties.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex md:flex-row flex-col md:mb-[36px] mb-[48px]">
-            <div class="flex flex-col">
-              <p class="md:text-[14px] text-[12px] font-medium">
-                HISTOCHEMICAL STUDY OF HUMAN BIOPSIES<br /><br />
-              </p>
-              <p class="md:text-[14px] text-[12px]">
-                Skin biopsies of three volunteers were evaluated before and after a two-month treatment with a 
-                cosmetic formulation containing 0.01% decorinyl® functional ingredient (peptide concentration).
-                The collagen fibril diameter was measured from Transmission Electron Micrographs.
-              </p>
-            </div>
-          </div>
-          <div
-            class="md:pl-[38.6px] flex justify-center md:pr-[40px] md:mb-[36px] mb-[12px]"
-          >
-            <img
-              src="../../assets/Quality/decorinyl/decorinyl_img1.png"
-              class="md:pr-[100px]"
-            />
-           <img
-              src="../../assets/Quality/decorinyl/decorinyl_img2.png"
-              class=""
-            />
-          </div>
-          <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
-
-
-          <!-- Point 4 -->
-          <div class="flex md:mb-[21px] mb-[44px] md:mt-[12px]" id="snap8point4">
+          <div class="flex md:mb-[21px] mb-[44px] md:mt-[12px]" id="snap8point3">
             <div
               class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-center"
             >
@@ -225,64 +162,68 @@
                   In Vivo Efficacy
                 </p>
               </div>
-              <div class="flex self-start mr-[26px] md:text-[40px] text-[30px] shrink-0">
-                +54%
+              <div class="flex self-start mr-[26px] md:mt-[12px] shrink-0">
+                <img src="../../assets/Quality/Ingrediant/Increase.svg" />
               </div>
               <div class="flex flex-col">
                 <p class="text-[14px] mb-2">
-                  Increase in skin suppleness after 28 days
+                  Cheek volume increased by 12% after 14 days with <br />
+                  <span class="text-[#d4b115]">adifyline®</span> peptide and breast volume improved by <br />
+                  30-fold compared to placebo after 56 days.
                 </p>
-                <div
-                  class="md:text-[14px] text-[12px] text-[#7d7d7d] font-normal"
-                >
-                  <span class="text-[#d4b115]">{{ title }} </span>
-                  functional ingredient guarantees uniformity of fibril 
-                  diameter, helping to establish skin mechanical properties.
-                </div>
               </div>
             </div>
           </div>
 
           <div class="flex md:flex-row flex-col md:mb-[26px] mb-8">
+            <div class="h-full mr-[18px] flex items-start">
+              <div
+                class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
+              >
+                01
+              </div>
+            </div>
             <div class="flex flex-col">
               <p class="md:text-[14px] text-[12px] font-medium">
-                SKIN SUPPLENESS<br /><br />
+                FACIAL VOLUME INCREASE<br /><br />
               </p>
-              <p class="md:text-[14px] text-[12px] md:pr-[30px]">
-                The test was performed on a group of 22 female <br />
-                volunteers between the ages of 40 and 58. A cream <br />
-                containing 5% decorinyl functional ingredient was applied <br />
-                daily on the face for 28 days. Another group of 21 female <br />
-                was treated with a placebo cream. Variations of skin <br />
-                suppleness were measured at time 0 and after 28 days.
+              <p class="md:text-[14px] text-[12px]">
+                A group of 22 female volunteers (aged between 50 and 60) applied a cream containing 2%
+                <span class="text-[#d4b115]">adifyline®</span> peptide solution on the cheeks twice a day for 14 days.
+                The cheek volume was analyzed by Fringe Projection at the end of the study. This technique
+                allows the direct acquisition of the morphology of the studied area in 3D, being able to obtain
+                the volume in mmᶟ.
               </p>
             </div>
-            <img src="../../assets/Quality/decorinyl/decorinyl_chart3.png" />
+          </div>
+          <div class="flex justify-center md:pb-[24px] mb-[48px]">
+            <img src="../../assets/Quality/adifyline/adifyline_chart3.png" />
+          </div>
+          <div class="flex md:flex-row flex-col md:mb-[26px] mb-8">
+            <div class="h-full mr-[18px] flex items-start">
+              <div
+                class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
+              >
+                02
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <p class="md:text-[14px] text-[12px] font-medium">
+                FACIAL VOLUME INCREASE<br /><br />
+              </p>
+              <p class="md:text-[14px] text-[12px]">
+                <span class="text-[#d4b115]">adifyline®</span> peptide was tested on a group of 22 women aged 25 to 40 with a bra cup size 
+                between 80 and 90. A cream containing 2% <span class="text-[#d4b115]">adifyline®</span>
+                peptide solution was applied on a breast and the placebo on the other, twice a day for 56 days.
+                Measurements of breast volume were taken at day 14, 28 and 56 using the FOITS technique.
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center md:pb-[24px] mb-[48px]">
+            <img src="../../assets/Quality/adifyline/adifyline_chart4.png" />
           </div>
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
 
-          <!-- Point 6 -->
-          <div class="flex flex-col md:w-[315px]" id="snap8point6">
-            <p
-              class="md:text-[24px] text-[14px] font-medium font-['DM Sans'] md:mb-[18px] mb-[12px]"
-            >
-              In Vivo Safety
-            </p>
-          </div>
-          <div class="flex md:flex-row flex-col md:mb-[36px] mb-[48px]">
-            <div class="flex flex-col">
-              <p class="md:text-[14px] text-[12px] font-medium">
-                SKIN SENSITISATION (HYPOALLERGENICITY)<br /><br />
-              </p>
-              <p class="md:text-[14px] text-[12px]">
-                An HRIPT (Human Repeated Insult Patch Test) was performed on 100 volunteers aged 25 to 59. 
-                Decorinyl® did not cause sensitisation in any volunteer so it can be classified as "harmless” as regards 
-                of the possibility of skin irritation.
-              </p>
-            </div>
-          </div>
-          <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
-          
           <!-- Point 7 -->
           <div class="flex flex-col md:min-w-[315px]" id="snap8point7">
             <p
@@ -322,15 +263,11 @@ export default {
     return {
       navi: [
         {
-          title: "Decorinyl",
+          title: "Adifyline",
           item: ["Description", "INCI"],
         },
         {
           title: "Efficacy",
-          item: ["In Vitro Efficacy", "Ex Vivo Efficacy", "In Vivo Efficacy"],
-        },
-        {
-          title: "Safety",
           item: ["In Vitro Efficacy", "In Vivo Efficacy"],
         },
         {
@@ -343,12 +280,9 @@ export default {
         INCI: "snap8point1",
         "In Vitro Efficacy": "snap8point2",
         "Ex Vivo Efficacy": "snap8point3",
-        "In Vivo Efficacy": "snap8point4",
-        // "In Vitro Safety": "snap8point5",
-        "In Vivo Safety": "snap8point6",
         Testing: "snap8point7",
       },
-      title: "Decorinyl®",
+      title: "Adifyline®",
     };
   },
   components: {

@@ -22,6 +22,7 @@ import Snap8 from "../components/Quality/Snap8.vue";
 import Argireline from "../components/Quality/Argireline.vue"
 import Eyeseryl from "../components/Quality/Eyeseryl.vue";
 import Decorinyl from "../components/Quality/Decorinyl.vue"
+import Adifyline from "../components/Quality/Adifyline.vue"
 
 export default {
   components: {
@@ -34,6 +35,7 @@ export default {
     Argireline,
     Eyeseryl,
     Decorinyl,
+    Adifyline,
   },
   data() {
     return {
@@ -43,6 +45,7 @@ export default {
         "1_6":"Argireline",
         "1_7": "Synake",
         "3_2": "Decorinyl",
+        "3_4": "Adifyline",
       },
       showReadMore: false,
       showReadMoreMobile: false,
