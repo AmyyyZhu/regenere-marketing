@@ -37,10 +37,10 @@
                 <img src="../../assets/Quality/Ingrediant/Increase.svg" />
               </div>
               <div class="flex flex-col">
-                <div class="text-[14px] font-normal">
+                <div class="text-[14px] font-normal md:pb-[6px] pb-[9px]">
                   Perfect curves against gravity
                 </div>
-                <p class="text-[12px] text-[#7d7d7d]">
+                <p class="text-[12px] text-[#7d7d7d] md:pb-[0px] pb-[24px]">
                   <span class="text-[#d4b115]">Adifyline® </span>
                   peptide stimulates adipogenesis, increases cheek volume
                   and provides a curvy silhouette.
@@ -95,7 +95,7 @@
                 <div
                   class="md:text-[14px] text-[12px] text-[#7d7d7d] font-normal"
                 >
-                  Lipid accumulation is higher in cells treated with adifyline® peptide.
+                  Lipid accumulation is higher in cells treated with <span class="text-[#d4b115]">adifyline®</span> peptide.
                 </div>
               </div>
             </div>
@@ -174,8 +174,7 @@
               </div>
             </div>
           </div>
-
-          <div class="flex md:flex-row flex-col md:mb-[26px] mb-8">
+          <div class="flex md:mb-[60px] mb-[33px] md:pr-[40px]">
             <div class="h-full mr-[18px] flex items-start">
               <div
                 class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
@@ -199,7 +198,7 @@
           <div class="flex justify-center md:pb-[24px] mb-[48px]">
             <img src="../../assets/Quality/adifyline/adifyline_chart3.png" />
           </div>
-          <div class="flex md:flex-row flex-col md:mb-[26px] mb-8">
+          <div class="flex md:mb-[60px] mb-[33px] md:pr-[40px]">
             <div class="h-full mr-[18px] flex items-start">
               <div
                 class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
