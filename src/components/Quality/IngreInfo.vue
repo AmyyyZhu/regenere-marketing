@@ -5,7 +5,7 @@
         class="w-[32%] flex flex-col justify-center"
         v-for="(singleOne, index) in wholeData.slice(0, 3)"
         :style="{
-          opacity: index === indexSelect ? 1 : 0.4,
+          opacity: index === indexSelect || indexSelect === 7 ? 1 : 0.4,
           'background-color': index === indexSelect ? white : grey,
         }"
       >
@@ -69,7 +69,7 @@
         class="w-[32%] flex flex-col justify-center"
         v-for="(singleOne, index) in wholeData.slice(3, 6)"
         :style="{
-          opacity: index === indexSelect - 3 ? 1 : 0.4,
+          opacity: index === indexSelect - 3 || indexSelect===7 ? 1 : 0.4,
           'background-color': index === indexSelect - 3 ? white : grey,
         }"
       >

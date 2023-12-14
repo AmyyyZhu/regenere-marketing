@@ -1,13 +1,22 @@
 <template>
   <div class="flex max-w-[930px] relative">
-    <div class="absolute cursor-pointer right-[32px] top-[29px]" v-if="width > 768" @click="closeReadMore">
+    <div
+      class="absolute cursor-pointer right-[32px] top-[29px]"
+      v-if="width > 768"
+      @click="closeReadMore"
+    >
       <img src="../../assets/Quality/Ingrediant/CloseButton.svg" />
     </div>
     <div class="md:w-[18%] w-0 flex justify-end">
-      <div class="mt-[200px] w-[102px]"><NaviBar :navi="navi" @naviTo="naviTo"/></div>
+      <div class="mt-[200px] w-[102px]">
+        <NaviBar :navi="navi" @naviTo="naviTo" />
+      </div>
     </div>
-    <div class="md:w-[82%] w-full flex flex-col overflow-scroll" id="synakewholeBox">
-      <Title :title="title" class="mb-6" @backTo="backTo"/>
+    <div
+      class="md:w-[82%] w-full flex flex-col overflow-scroll"
+      id="synakewholeBox"
+    >
+      <Title :title="title" class="mb-6" @backTo="backTo" />
       <div class="md:px-[44px] px-[27px] w-full flex justify-center">
         <div class="flex flex-col w-full">
           <!-- Main CONTENT
@@ -29,7 +38,7 @@
                 <img src="../../assets/Quality/Ingrediant/Increase.svg" />
               </div>
               <div class="flex flex-col">
-                <div class="text-[14px] font-normal">
+                <div class="text-[14px] mb-1 font-normal">
                   {{ pointTitle1.description[0] }}
                 </div>
                 <p class="text-[12px] text-[#7d7d7d]">
@@ -43,7 +52,9 @@
           </div>
 
           <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mt-3 md:mb-4"></div>
-          <div class="text-[#d4b115] md:text-[18px] text-[12px] md:mb-7 mb-4">
+          <div
+            class="text-[#d4b115] md:text-[18px] md:mt-0 mt-5 text-[12px] md:mb-7 mb-4"
+          >
             Syn®-ake attenuates neuronal signal transduction likely by binding
             to mnAChR. It is a snake venom-mimicking peptide with a BOTOX-like
             effect, excellent smoothing and anti-wrinkle properties,
@@ -59,7 +70,7 @@
           <div class="md:text-[18px] text-[12px] md:mb-[100px] mb-12">
             Diaminobutyroyl Benzylamide Diacetate
           </div>
-          <div class="h-[1px]  bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
+          <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 2 -->
           <div class="flex md:mb-[21px] mb-[44px]" id="synakepoint2">
@@ -124,7 +135,8 @@
                 <div
                   class="md:text-[14px] text-[12px] text-[#7d7d7d] font-normal"
                 >
-                Applying for 1 month can delay the appearance of mimic wrinkles up to 5 years.
+                  Applying for 1 month can delay the appearance of mimic
+                  wrinkles up to 5 years.
                 </div>
               </div>
             </div>
@@ -212,24 +224,23 @@
             class="h-[1px] bg-[#a4a4a4] md:mt-3 md:mb-[76px] mb-[45px]"
           ></div>
 
-
           <!-- Point 5 -->
-          <div class="flex flex-col md:w-[315px]" id="synakepoint4">
+          <div class="flex flex-col" id="synakepoint4">
             <p
               class="md:text-[24px] text-[14px] font-medium font-['DM Sans'] md:mb-[18px] mb-[12px]"
             >
               Testing
             </p>
             <p
-              class="md:text-[16px] text-[12px] font-bold font-['DM Sans'] mb-2"
+              class="md:text-[16px] text-[12px] font-bold md:underline md:underline-offset-[12px] md:decoration-[#a4a4a4] font-['DM Sans'] mb-2"
             >
               Mycotxins, environmental toxins Tests
             </p>
-            <div class="h-[1px] bg-[#a4a4a4] mb-4"></div>
+            <div class="h-[1px] bg-[#a4a4a4] mb-4" v-if="width < 768"></div>
             <p
-              class="md:text-[18px] text-[12px] font-['DM Sans'] md:mb-[100px] mb-[60px]"
+              class="md:text-[18px] text-[12px] md:mt-4 font-['DM Sans'] md:mb-[100px] mb-[60px]"
             >
-              Mycotxins, environmental toxins Tests
+              The results showed no mycotxins, environmental toxins
             </p>
             <p class="text-[10px] mb-[400px]">
               Argireline® is a trademark of Lubrizol Corporation or its
@@ -260,20 +271,16 @@ export default {
           item: ["In Vitro Efficacy", "In Vivo Efficacy"],
         },
         {
-          title: "Safety",
-          item: ["In Vitro Safety", "In Vivo Safety"],
-        },
-        {
           title: "Testing",
           item: ["Testing"],
         },
       ],
-      naviMap:{
-        "Description":'synakepoint1',
-        "INCI":'synakepoint1',
-        "In Vitro Efficacy":'synakepoint2',
-        "In Vivo Efficacy":'synakepoint3',
-        "Testing":'synakepoint4'
+      naviMap: {
+        Description: "synakepoint1",
+        INCI: "synakepoint1",
+        "In Vitro Efficacy": "synakepoint2",
+        "In Vivo Efficacy": "synakepoint3",
+        Testing: "synakepoint4",
       },
       title: "Syn®-ake",
       pointTitle1: {
@@ -298,18 +305,18 @@ export default {
     return { width, height };
   },
   methods: {
-    closeReadMore(){
-      this.$emit('closeReadMore')
+    closeReadMore() {
+      this.$emit("closeReadMore");
     },
-    naviTo(item){
-      const outele = document.getElementById('synakewholeBox');
+    naviTo(item) {
+      const outele = document.getElementById("synakewholeBox");
       const inele = document.getElementById(this.naviMap[item]);
       let scorllH = inele.offsetTop - outele.offsetTop;
-      outele.scrollTo({top:scorllH,behavior:'smooth'})
+      outele.scrollTo({ top: scorllH, behavior: "smooth" });
     },
-    backTo(){
-      this.$emit('backTo');
-    }
+    backTo() {
+      this.$emit("backTo");
+    },
   },
 };
 </script>

@@ -1,11 +1,11 @@
 <template>
-  <div class="flex px-[22px] flex-col overflow-hidden">
+  <div class="flex px-[36px] flex-col overflow-hidden">
     <div
       class="flex justify-start gap-x-[20px] transition"
       @touchstart="handleStart"
       @touchmove="handleMove"
       @touchend="handleEnd"
-      :style="{'transform': `translate(${-(screenWidth-44+20)*indexSelect+moveX-startX}px)`}"
+      :style="{'transform': `translate(${-(screenWidth-72+20)*indexSelect+moveX-startX}px)`}"
     >
       <div
         class="w-[100%] shrink-0 flex flex-col justify-center"
@@ -40,8 +40,8 @@
       </div>
     </div>
     <div class="w-full bg-white" v-if="showDetail">
-      <div class="px-[38px] mt-[36px] mb-[120px] flex flex-col">
-        <div class="px-2 font-['DM Sans'] text-[16px] mb-[30px]">
+      <div class="px-[10px] mt-[36px] mb-[120px] flex flex-col">
+        <div class="px-2 font-['DM Sans'] text-[12px] mb-[30px]">
           {{ wholeData[indexSelect].desciption }}
         </div>
         <div class="px-4">
@@ -55,7 +55,7 @@
             <div class="flex mb-3">
               <div class="ingre-detail-des-title">{{ ingreDes.title }}</div>
             </div>
-            <div class="font-[16px] mb-4">{{ ingreDes.descrip }}</div>
+            <div class="text-[12px] mb-4">{{ ingreDes.descrip }}</div>
             <div class="flex cursor-pointer" v-if="ingreDes.more" @click="readMore(index2)">
               <div
                 class="underline font-['DM Sans'] tracking-[0.28px] text-[14px]"

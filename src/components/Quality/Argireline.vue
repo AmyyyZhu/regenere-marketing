@@ -37,7 +37,7 @@
                 <img src="../../assets/Quality/Ingrediant/Increase.svg" />
               </div>
               <div class="flex flex-col">
-                <div class="text-[14px] font-normal">
+                <div class="text-[14px] mb-1 font-normal">
                   The first peptide for expression wrinkles
                 </div>
                 <p class="text-[12px] text-[#7d7d7d]">
@@ -50,7 +50,7 @@
           </div>
 
           <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mt-3 md:mb-4"></div>
-          <div class="text-[#d4b115] md:text-[18px] text-[12px] md:mb-7 mb-4">
+          <div class="text-[#d4b115] md:text-[18px] md:mt-0 mt-5 text-[12px] md:mb-7 mb-4">
             The first hexapeptide that is a mimic of the N-terminal end of
             SNAP-25 which competes with this protein for a position in the SNARE
             complex. argireline® is an alternative to Botulinum Toxin, topically
@@ -206,22 +206,22 @@
 
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
           <!-- Point 5 -->
-          <div class="flex flex-col md:w-[315px]" id="snap8point4">
+          <div class="flex flex-col" id="synakepoint4">
             <p
               class="md:text-[24px] text-[14px] font-medium font-['DM Sans'] md:mb-[18px] mb-[12px]"
             >
               Testing
             </p>
             <p
-              class="md:text-[16px] text-[12px] font-bold font-['DM Sans'] mb-2"
+              class="md:text-[16px] text-[12px] font-bold md:underline md:underline-offset-[12px] md:decoration-[#a4a4a4] font-['DM Sans'] mb-2"
             >
               Mycotxins, environmental toxins Tests
             </p>
-            <div class="h-[1px] bg-[#a4a4a4] mb-4"></div>
+            <div class="h-[1px] bg-[#a4a4a4] mb-4" v-if="width < 768"></div>
             <p
-              class="md:text-[18px] text-[12px] font-['DM Sans'] md:mb-[100px] mb-[60px]"
+              class="md:text-[18px] text-[12px] md:mt-4 font-['DM Sans'] md:mb-[100px] mb-[60px]"
             >
-              Mycotxins, environmental toxins Tests
+              The results showed no mycotxins, environmental toxins
             </p>
             <p class="text-[10px] mb-[400px]">
               Argireline® is a trademark of Lubrizol Corporation or its

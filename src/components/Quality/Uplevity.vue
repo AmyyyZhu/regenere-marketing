@@ -20,7 +20,7 @@
       <div class="md:px-[44px] px-[27px] w-full flex justify-center">
         <div class="flex flex-col w-full">
           <!-- Main CONTENT
-            Point 1 -->
+              Point 1 -->
           <div class="flex" id="synakepoint1">
             <div
               class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-center"
@@ -31,33 +31,33 @@
                 <p
                   class="font-['DM Sans'] md:text-[24px] text-[14px] md:tracking-[0.48px] tracking-[0.28px]"
                 >
-                  Eyeseryl®
+                  Uplevity™ e-Lift
                 </p>
               </div>
               <div class="flex mr-[26px] shrink-0">
-                <img src="../../assets/Quality/Ingrediant/Decrease.svg" />
+                <img src="../../assets/Quality/Ingrediant/Increase.svg" />
               </div>
               <div class="flex flex-col">
                 <div class="text-[14px] mb-1 font-normal">
-                  {{ pointTitle1.description[0] }}
+                  The next dimension in facial definition
                 </div>
                 <p class="text-[12px] text-[#7d7d7d]">
-                  <span class="text-[#d4b115]"
-                    >{{ pointTitle1.description[1] }}
-                  </span>
-                  {{ pointTitle1.description[2] }}
+                  <span class="text-[#d4b115]">Uplevity™ e-Lift </span>
+                  mimics effects of microcurrent devices, ‘triorbital’ skin lift
+                  and minimized appearance of wrinkles in just 1 week
                 </p>
               </div>
             </div>
           </div>
 
           <div class="md:h-[1px] h-0 bg-[#a4a4a4] md:mt-3 md:mb-4"></div>
-          <div class="text-[#d4b115] md:text-[18px] md:mt-0 mt-5 text-[12px] md:mb-7 mb-4">
-            Tetrapeptide that helps improve the appearance of the eye contour by
-            mainly reducing the presence of under-eye puffiness and dark
-            circles. eyeseryl® peptide minimizes tissue deterioration, fluid
-            buildup and excess fat under the eyes, which represent the main
-            triggering factors for eyebags.
+          <div
+            class="text-[#d4b115] md:text-[18px] text-[12px] md:mt-0 mt-5 md:mb-7 mb-4"
+          >
+            High-performing and sustainable tetrapeptide inspired by
+            microcurrent devices that mimics the benefits of electrical
+            stimulation on the skin for a complete upper face lifted appearance
+            and a reduced visibility of wrinkles.
           </div>
           <div
             class="uppercase font-normal text-[#a4a4a4] md:text-[20px] text-[14px] md:mb-3 mb-2"
@@ -83,96 +83,32 @@
                   In Vitro Efficacy
                 </p>
               </div>
-              <div class="flex mr-[26px] md:text-[40px] text-[30px] shrink-0">
-                18.5%
+              <div class="flex mr-[26px] shrink-0">
+                <img src="../../assets/Quality/Ingrediant/Increase.svg" />
               </div>
               <div class="flex flex-col">
                 <div class="text-[14px] mb-2 font-normal leading-[16px]">
-                  reduction of bilirubin levels for a minimized appearance of
-                  dark circles
+                  Mimicking the collagen contraction capacity of microcurrents
+                  in vitro, for firmer skin. Improved mitochondrial function for
+                  a better muscle tone.
                 </div>
-                <p class="text-[12px] text-[#7d7d7d] leading-[14px]">
-                  Lower accumulation of lipids, suggesting a decrease in
-                  fat-related eyebags.
-                </p>
               </div>
             </div>
           </div>
-          <div class="flex md:mb-[25px] mb-[45px]">
-            <div class="h-full mr-[18px] flex items-start">
-              <div
-                class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
-              >
-                01
-              </div>
-            </div>
-            <div class="flex flex-col">
-              <p class="md:text-[16px] text-[12px] font-medium">
-                VASCULAR PERMEABILITY INHIBITION<br /><br />
-              </p>
-              <p
-                class="md:text-[14px] text-[12px] md:leading-[16px] leading-[13px]"
-              >
-                A monolayer of human endothelial cells was treated with scalar
-                concentrations of the peptide. Permeation levels were evaluated
-                after the treatments by measuring fluorescein
-                isothiocyanate-dextran permeation through the monolayer.
-                Decreased vascular permeability, helping prevent fluid
-                accumulation.
-              </p>
-            </div>
+          <div
+            class="text-[14px] font-medium text-[#e3c84c] mb-4 uppercase"
+            v-if="width > 768"
+          >
+            how does uplevity™ e-lift peptide work?
           </div>
-          <div class="flex md:mb-[25px] mb-[45px]">
-            <div class="h-full mr-[18px] flex items-start">
-              <div
-                class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
-              >
-                02
-              </div>
-            </div>
-            <div class="flex flex-col">
-              <p class="md:text-[16px] text-[12px] font-medium">
-                BILIRUBIN DEGRADATION<br /><br />
-              </p>
-              <p
-                class="md:text-[14px] text-[12px] md:leading-[16px] leading-[13px]"
-              >
-                A solution of 0.01% conjugated bilirubin was with 10 mg/mL
-                <span class="text-[#e3c84c]">eyeseryl®</span> peptide in a light
-                protected test tube, for 24 hours. The concentration of
-                bilirubin was evaluated by HPLC.
-              </p>
-            </div>
-          </div>
-          <div class="flex md:mb-[25px] mb-[45px]">
-            <div class="h-full mr-[18px] flex items-start">
-              <div
-                class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
-              >
-                03
-              </div>
-            </div>
-            <div class="flex flex-col">
-              <p class="md:text-[16px] text-[12px] font-medium">
-                REDUCED LIPID ACCUMULATION<br /><br />
-              </p>
-              <p
-                class="md:text-[14px] text-[12px] md:leading-[16px] leading-[13px]"
-              >
-                Primary human preadipocytes were incubated with adipocyte
-                differentiation medium and were treated with different
-                concentrations of
-                <span class="text-[#e3c84c]">eyeseryl®</span> peptide. Lipid
-                accumulation was quantified in cells by fluorescence using a
-                reagent that stains intracellular lipid droplets.
-              </p>
-            </div>
+          <div class="flex md:mb-5 mb-9 justify-center">
+            <img src="../../assets/Quality/Ingrediant/Uplevity/Pic1.png" />
           </div>
 
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[18px] mb-12"></div>
 
           <!-- Point 3 -->
-          <div class="flex md:mb-[21px] mb-[44px]" id="synakepoint3">
+          <div class="flex mb-[45px]" id="synakepoint3">
             <div
               class="md:min-h-[58px] flex md:flex-row flex-col gap-y-[24px] md:items-center"
             >
@@ -186,22 +122,38 @@
                 </p>
               </div>
               <div class="flex mr-[26px] md:text-[40px] text-[30px] shrink-0">
-                29.4%
+                13.1%
               </div>
               <div class="flex flex-col">
                 <div class="text-[14px] leading-[16px] mb-2 font-normal">
-                  improvement in skin elasticity after only one month
+                  Wrinkle length reduction on the crow’s feet after only 1 week
                 </div>
-                <p class="text-[12px] leading-[14px] text-[#7d7d7d]">
-                  Improved skin luminance and reduced darkness under the eyes
-                  after 14 days.
-                </p>
               </div>
             </div>
           </div>
 
+          <div class="mb-[45px]">
+            <p class="md:text-[16px] text-[14px] font-medium">
+              ACHIEVING A MICROCURRENT-LIKE UPPER FACE LIFT APPEARANCE<br /><br />
+            </p>
+            <p
+              class="md:text-[14px] text-[12px] md:leading-[17px] leading-[14px]"
+            >
+              36 female and male volunteers applied a cream with 2% UplevityTM
+              e-Lift peptide solution and a placebo cream on half face, twice
+              day for 28 days. A second group of 1 0 volunteers used a
+              commercial microcurrent device, once a day, 5 days a week, and
+              applied a placebo cream, twice a day for 28 days.<br /><br />
+              'Triorbital' skin lift, comparable to the efficacy of a commercial
+              microcurrent device<br />
+              1. Supraorbital eyebrow and eyelid lift .<br />
+              2. Orbital crow's feet lift.<br />
+              3. Infraorbital upper cheek lift.
+            </p>
+          </div>
+
           <div class="flex md:flex-row flex-col md:mb-[25px] mb-[45px]">
-            <div class="flex md:w-[70%] md:mb-0 mb-[45px]">
+            <div class="flex">
               <div class="h-full mr-[18px] flex items-start">
                 <div
                   class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
@@ -211,26 +163,75 @@
               </div>
               <div class="flex flex-col">
                 <p class="md:text-[16px] text-[12px] font-medium">
-                  EYE CONTOUR IMPROVEMENT<br /><br />
+                  Upper face skin lift<br /><br />
                 </p>
                 <p
                   class="md:text-[14px] text-[12px] md:leading-[17px] leading-[14px]"
                 >
-                  20 women (18-65 years old) applied a cream containing 10%
-                  <span class="text-[#e3c84c]">eyeseryl®</span>
-                  peptide solution around the eyes, twice a day for 60 days.
-                  Skin elasticity was measured after 30 and 60 days of the
-                  treatment by means of a cutometer.
+                  The lifting effect was determined on the eyebrows, eyelids,
+                  crow's feet and upper cheek through distance measurement, and
+                  through visualization by a 3D imaging system that displays
+                  arrows that represent the movement of the skin after the
+                  treatment.
                 </p>
               </div>
             </div>
-            <div class="flex justify-center md:pl-0 pl-[36px]">
-              <img src="../../assets/Quality/Ingrediant/Eyeseryl/Pic1.svg" />
+          </div>
+
+          <div class="flex mb-[45px]" v-if="width > 768">
+            <div class="w-[50%] mr-[30px] flex flex-col relative">
+              <div class="w-full text-center text-[12px] h-[40px]">0 days</div>
+              <div class="flex justify-center">
+                <img src="../../assets/Quality/Ingrediant/Uplevity/Pic3.png" />
+              </div>
+              <div class="w-full text-center text-[12px] mt-[180px] absolute">
+                20 days
+              </div>
+            </div>
+            <div class="w-full flex flex-col items-center">
+              <div class="flex w-full justify-center h-[40px]">
+                <div class="w-1/2 flex justify-center">
+                  <p class="w-2/3 text-center text-[12px]">
+                    2% <span class="text-[#e3c84c]">Uplevity™</span> e-Lift
+                    peptide solution
+                  </p>
+                </div>
+                <div class="w-1/2 flex justify-center">
+                  <p class="w-2/3 text-center text-[12px]">Placebo</p>
+                </div>
+              </div>
+              <div class="w-full">
+                <img
+                  src="../../assets/Quality/Ingrediant/Uplevity/Pic2.png"
+                  class="w-full"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="mb-[45px]" v-else>
+            <div class="w-full flex flex-col items-center">
+              <div class="flex w-full justify-center h-[40px]">
+                <div class="w-1/2 flex justify-center">
+                  <p class="w-2/3 text-center text-[12px]">
+                    2% <span class="text-[#e3c84c]">Uplevity™</span> e-Lift
+                    peptide solution
+                  </p>
+                </div>
+                <div class="w-1/2 flex justify-center">
+                  <p class="w-2/3 text-center text-[12px]">Placebo</p>
+                </div>
+              </div>
+              <div class="w-full">
+                <img
+                  src="../../assets/Quality/Ingrediant/Uplevity/Pic2.png"
+                  class="w-full"
+                />
+              </div>
             </div>
           </div>
 
           <div class="flex md:flex-row flex-col md:mb-[25px] mb-[45px]">
-            <div class="flex md:w-[70%] md:mb-0 mb-[45px]">
+            <div class="flex">
               <div class="h-full mr-[18px] flex items-start">
                 <div
                   class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
@@ -240,55 +241,21 @@
               </div>
               <div class="flex flex-col">
                 <p class="md:text-[16px] text-[12px] font-medium">
-                  ANTI-DARK CIRCLE EFFECT<br /><br />
+                  Minimized appearance of wrinkles<br /><br />
                 </p>
                 <p
                   class="md:text-[14px] text-[12px] md:leading-[17px] leading-[14px]"
                 >
-                  17 women (34-54 years old) with dark circles applied a cream*
-                  with 1%
-                  <span class="text-[#e3c84c]">eyeseryl®</span>
-                  peptide solution under the eyes, twice a day. The dark
-                  pigmentation under the eyes was assessed after 14 and 28 days
-                  through chromametry studies. The parameters evaluated were L*
-                  (luminance) and ITAº (individual typological angle).
+                  The length of the wrinkles on the crow’s feet and underneath
+                  the eye region was measured by means of a 3D microtopography
+                  imaging system based on fringe projection(PRIMOS).
                 </p>
               </div>
-            </div>
-            <div class="flex justify-center md:pl-0 pl-[36px]">
-              <img src="../../assets/Quality/Ingrediant/Eyeseryl/Pic2.svg" />
             </div>
           </div>
 
-          <div class="flex flex-col md:mb-[25px] mb-[45px]">
-            <div class="flex md:mb-[25px] mb-[45px]">
-              <div class="h-full mr-[18px] flex items-start">
-                <div
-                  class="font-['DM Sans'] text-[18px] text-[#d4b115] font-bold"
-                >
-                  03
-                </div>
-              </div>
-              <div class="flex flex-col">
-                <p class="md:text-[16px] text-[12px] font-medium">
-                  ANTI-DARK CIRCLE EFFECT<br /><br />
-                </p>
-                <p
-                  class="md:text-[14px] text-[12px] md:leading-[17px] leading-[14px]"
-                >
-                  17 women (34-54 years old) with dark circles applied a cream*
-                  with 1%
-                  <span class="text-[#e3c84c]">eyeseryl®</span>
-                  peptide solution under the eyes, twice a day. The dark
-                  pigmentation under the eyes was assessed after 14 and 28 days
-                  through chromametry studies. The parameters evaluated were L*
-                  (luminance) and ITAº (individual typological angle).
-                </p>
-              </div>
-            </div>
-            <div class="flex justify-center pl-[36px]">
-              <img src="../../assets/Quality/Ingrediant/Eyeseryl/Pic3.png" />
-            </div>
+          <div class="pl-[22px]" v-if="width < 768">
+            <img src="../../assets/Quality/Ingrediant/Uplevity/Pic4.png" />
           </div>
 
           <div
@@ -334,7 +301,7 @@ export default {
     return {
       navi: [
         {
-          title: "Eyeseryl",
+          title: "Uplevity e-Lift",
           item: ["Description", "INCI"],
         },
         {
@@ -353,7 +320,7 @@ export default {
         "In Vivo Efficacy": "synakepoint3",
         Testing: "synakepoint4",
       },
-      title: "Eyeseryl®",
+      title: "Uplevity™ e-Lift",
       pointTitle1: {
         title: "Syn®-ake",
         picture: "up",
