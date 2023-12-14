@@ -261,6 +261,75 @@
           </div>
           <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
 
+          <!-- Point 5 -->
+          <div class="flex flex-col md:w-[315px]" id="snap8point5">
+            <p
+              class="md:text-[24px] text-[14px] font-medium font-['DM Sans'] md:mb-[18px] mb-[12px]"
+            >
+              In Vitro Safety
+            </p>
+          </div>
+          <div class="flex md:flex-row flex-col md:mb-[36px] mb-[48px]">
+            <div class="flex flex-col">
+              <p class="md:text-[14px] text-[12px]">
+                The toxicological profile of DECORINYL® for cosmetic purposes was assessed in vitro and in vivo. A 
+                full toxicological report and a summary of all the safety tests performed are available on request.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="flex md:justify-between md:flex-row flex-col md:w-[677px] w-[320px] md:mb-12">
+              <div class="md:w-[300px] w-[320px]">
+                <div class="flex md:items-end md:min-h-[48px]">
+                  <p class="font-bold text-[16px]">
+                    Citotoxicity test on 3T3 fibroblasts
+                  </p>
+                </div>
+                <div class="h-[1px] bg-[#a4a4a4] md:mb-[16px] mb-12"></div>
+                <p class="text-[18px]">
+                  The results showed no signs of citotoxicity at the concentrations assayed.
+                </p>
+              </div>
+              <div class="md:w-[300px] w-[320px]">
+                <div class="flex md:items-end md:min-h-[48px]">
+                  <p class="font-bold text-[16px]">
+                    Citotoxicity test on human eptidermal keratinocytes
+                  </p>
+                </div>
+                <div class="h-[1px] bg-[#a4a4a4] md:mb-[16px] mb-12"></div>
+                <p class="text-[18px]">
+                  The results showed no signs of citotoxicity at the concentrations assayed.
+                </p>
+              </div>
+            </div>
+            <div class="flex md:justify-between md:flex-row flex-col md:w-[677px] w-[320px] md:mb-12">
+              <div class="md:w-[300px] w-[320px]">
+                <div class="flex md:items-end">
+                  <p class="font-bold text-[16px]">
+                    Mutagenicity test (Ames test)
+                  </p>
+                </div>
+                <div class="h-[1px] bg-[#a4a4a4] md:mb-[16px] mb-12"></div>
+                <p class="text-[18px]">
+                  The results showed no mutagenical activity under the conditions assayed.
+                </p>
+              </div>
+              <div class="md:w-[300px] w-[320px]">
+                <div class="flex md:items-end">
+                  <p class="font-bold text-[16px]">
+                    Ocular Irritation (HET-CAM test)
+                  </p>
+                </div>
+                <div class="h-[1px] bg-[#a4a4a4] md:mb-[16px] mb-12"></div>
+                <p class="text-[18px]">
+                  The product is potentially not irritating for the eyes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="h-[1px] bg-[#a4a4a4] md:mb-[36px] mb-12"></div>
+
           <!-- Point 6 -->
           <div class="flex flex-col md:w-[315px]" id="snap8point6">
             <p

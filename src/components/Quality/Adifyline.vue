@@ -279,7 +279,7 @@ export default {
         Description: "snap8point1",
         INCI: "snap8point1",
         "In Vitro Efficacy": "snap8point2",
-        "Ex Vivo Efficacy": "snap8point3",
+        "In Vivo Efficacy": "snap8point3",
         Testing: "snap8point7",
       },
       title: "Adifyline®",
